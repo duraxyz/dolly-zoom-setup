@@ -1,11 +1,21 @@
-[extension]
+schema_version = "1.0.0"
+id = "dolly_zoom_setup"
 name = "Dolly Zoom Setup"
-blender_version = "3.3"
+tagline = "Simple Dolly Zoom camera setup for Blender"
+maintainer = "dura.xyz <duraxyz@proton.me>"
+type = "add-on"
 version = "1.0.0"
-author = "dura.xyz"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+blender_version_min = "4.2.0"
+
+[extension]
 description = "Adds simple dolly zoom camera setup with automatic driver configuration."
-category = "Camera"
+author = "dura.xyz"
 support = "COMMUNITY"
-license = "GPL-3.0"
 doc_url = "https://github.com/duraxyz/dolly-zoom-setup"
 tracker_url = "https://github.com/duraxyz/dolly-zoom-setup/issues"
+category = "Camera"
